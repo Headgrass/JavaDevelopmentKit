@@ -20,7 +20,7 @@ public class GameWindow extends JFrame {
 
         map = new Map();
         settings = new SettingsWindow(this);
-        settings.setVisible(true);
+        settings.setVisible(false);
 
         JPanel panBottom = new JPanel(new GridLayout(1, 2));
         panBottom.add(btnStart);
